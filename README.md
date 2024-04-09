@@ -23,11 +23,11 @@ Como se agregan los dos vértices incidentes a cada arista en $A$, se tiene que
 
 Como cada vez que se selecciona una arista, se eliminan todas las aristas incidentes a los vértices de la arista seleccionada, no pueden haber dos aristas diferentes en $A$ que compartan un vértice. Por lo tanto, $A$ es un conjunto de aristas disjuntas.
 
-Como $R^*$ es un vertex cover, cada arista en $A$ tiene al menos un vértice en $R^*$, por lo tanto $|R^*| \geq |A|$.
+Como $R^\*$ es un vertex cover, cada arista en $A$ tiene al menos un vértice en $R^\*$, por lo tanto $|R^\*| \geq |A|$.
 
 Si juntamos esto con la ecuación anterior, se tiene que
-	$$|R^*| \geq |A| = \frac{|R|}{2}$$
+	$$|R^\*| \geq |A| = \frac{|R|}{2}$$
 Y por lo tanto finalmente
-	$$|R| \leq 2|R^*|$$
+	$$|R| \leq 2|R^\*|$$
 
 Por lo que se concluye que el algoritmo es una aproximación 1-relativa a MIN-COVER.
